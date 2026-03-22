@@ -1,7 +1,7 @@
 # Intermediate SQL - Sales Analysis
 
 ## Overview
-Analysis of customer behavior, retention, and lifetime value for an e-commerce company to improve customer retention and maximize revenue.
+Analysis of customer behavior, retention, and lifetime value for an e-commerce company from United Kingdom to improve customer retention and maximize revenue.
 
 ## Business Questions
 1. **Customer Segmentation:** Who are our most valuable customers?
@@ -24,9 +24,9 @@ Analysis of customer behavior, retention, and lifetime value for an e-commerce c
 <img src="Resources\1_graph.png" width="600" height="600">
 
 📊 **Key Findings:**
-- High-value segment (25% of customers) generates **~79% of total revenue ($7.05M)** with the highest average LTV ($6,499.12)
-- Mid-value segment (50% of customers) contributes **~19% of revenue ($1.67M)** with an average LTV of $768.18
-- Low-value segment (25% of customers) accounts for **~2% of revenue ($194K)** with a very low average LTV ($179.21)
+- High-value segment (25% of customers) generates **~79% of total revenue (£7.05M)** with the highest average LTV (£6,499.12)
+- Mid-value segment (50% of customers) contributes **~19% of revenue (£1.67M)** with an average LTV of £768.18
+- Low-value segment (25% of customers) accounts for **~2% of revenue (£194K)** with a very low average LTV (£179.21)
 
 💡 **Business Insights**
 - **High-Value (~79% revenue):** These 1,085 customers are extremely valuable and should be prioritized with VIP treatment, loyalty programs, and retention strategies to protect high revenue impact.
@@ -48,10 +48,10 @@ Analysis of customer behavior, retention, and lifetime value for an e-commerce c
 
 📊 **Key Findings:**
 - Customer base grew significantly from **885 customers (2010)** to **3,453 customers (2011)**
-- Total revenue increased from **$399K (2010)** to **$1.58M (2011)**, driven primarily by higher acquisition
+- Total revenue increased from **£399K (2010)** to **£1.58M (2011)**, driven primarily by higher acquisition
 - Revenue per customer shows a **slight increase**:
-  - 2010: $451.27  
-  - 2011: $458.60  
+  - 2010: £451.27  
+  - 2011: £458.60  
 - Indicates **stable and slightly improving customer value** alongside rapid growth
 
 💡 **Business Insights**
