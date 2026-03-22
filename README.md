@@ -63,11 +63,12 @@ Analysis of customer behavior, retention, and lifetime value for an e-commerce c
 ---
 
 ### 3. Customer Retention
-🖥️ Query: [retention analysis](3_retention_analysis.sql)
 
 - Identified customers as either active or churned based on recent activity
 - Analyzed churn behavior across cohort years
 - Calculated customer status distribution and retention percentages
+
+🖥️ Query: [retention analysis](3_retention_analysis.sql)
 
 **📈 Visualization:**
 
