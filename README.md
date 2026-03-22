@@ -21,7 +21,7 @@ Analysis of customer behavior, retention, and lifetime value for an e-commerce c
 
 **📈 Visualization:**
 
-<img src="Resources\1_graph.png" width="50%">
+<img src="Resources\1_graph.png" width="600" height="600">
 
 📊 **Key Findings:**
 - High-value segment (25% of customers) generates **~79% of total revenue ($7.05M)** with the highest average LTV ($6,499.12)
@@ -44,7 +44,7 @@ Analysis of customer behavior, retention, and lifetime value for an e-commerce c
 
 **📈 Visualization:**
 
-<img src="Resources\2_graph.png" alt="Cohort Analysis" style="width: 50%; height: auto;">
+<img src="Resources\2_graph.png" alt="Cohort Analysis" width="600" height="600">
 
 📊 **Key Findings:**
 - Customer base grew significantly from **885 customers (2010)** to **3,453 customers (2011)**
@@ -71,7 +71,7 @@ Analysis of customer behavior, retention, and lifetime value for an e-commerce c
 
 **📈 Visualization:**
 
-<img src="Resources\3_graph.png" alt="Customer Churn by Cohort Year" style="width: 50%; height: auto;">
+<img src="Resources\3_graph.png" alt="Customer Churn by Cohort Year" width="600" height="600">
 
 📊 **Key Findings:**  
 - Retention is slightly higher in **2011 (~81%)** compared to **2010 (~78%)**, indicating modest improvement  
