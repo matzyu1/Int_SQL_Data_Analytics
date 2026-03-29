@@ -12,6 +12,47 @@ Analysis of customer behavior, retention, and lifetime value for an e-commerce c
 
 ## Analysis Approach
 
+### 0. Data Cleaning & Preparation
+
+Before conducting any analysis, the raw transactional dataset was cleaned and transformed into structured views to ensure accuracy and consistency across all downstream queries.
+
+#### 🧹 Data Cleaning (`clean_ecom_uk` view)
+The initial step involved filtering and standardizing the raw data:
+
+- Removed records with missing `customer_id` to focus only on identifiable customers  
+- Excluded invalid transactions:
+  - Negative or zero `quantity` (returns or errors)  
+  - Zero or negative `unit_price`  
+- Converted `invoice_date` into a proper date format for time-based analysis  
+- Selected only relevant fields for analysis  
+
+This resulted in a clean transactional dataset used as the foundation for all further analysis.
+
+#### 🧱 Customer-Level Aggregation (`customer_base` view)
+A second view was created to transform transactional data into customer-level metrics:
+
+- Aggregated data at **customer + date level**  
+- Calculated:
+  - `total_orders` (distinct invoices per day)  
+  - `revenue` (quantity × unit price)  
+- Derived key customer attributes:
+  - `first_purchase_date` using a window function  
+  - `cohort_year` to enable cohort analysis  
+- Retained `country` for geographic insights  
+
+This structured dataset enables efficient analysis of:
+- Customer lifetime value (LTV)  
+- Cohort performance  
+- Retention behavior  
+
+#### 💡 Why This Step Matters
+Creating reusable views:
+- Ensures **data consistency** across all analyses  
+- Improves **query performance and readability**  
+- Separates **data preparation from business logic**, making the project more scalable and maintainable  
+
+---
+
 ### 1. Customer Segmentation Analysis
 - Categorized customers based on total lifetime value (LTV)
 - Assigned customers to High, Mid, and Low-value segments
